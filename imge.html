@@ -31,6 +31,18 @@
           <h1>Добро пожаловать на наш сайт</h1>
       </section>
   </main>
+   # Создать ветку imge.html
+git checkout -b imge.html
+
+# Получить обновления из удалённого репозитория
+git fetch origin
+
+# Создать локальную ветку imge.html на основе удалённой ветки origin/imge.html (если она существует)
+git checkout -b imge.html origin/imge.html
+
+# Установить HEAD для удалённого репозитория
+git remote set-head origin -a
+
   <script src="script.js"></script>
 </body>
 </html>
